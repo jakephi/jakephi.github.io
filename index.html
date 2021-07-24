@@ -7,15 +7,40 @@
     	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 	</head>	
 	<body>
-		<div class="Centred">
+		<header class="header">
+			<div class="header_links">
+				<p>
+					<a href="about/index.html"" class="header_links">About me</a>
+					<a href="contact/index.html" class="header_links">Contact</a>
+				</p>
+			</div>
+		</header>
+		<div class="wrap">
 			<h1>Hello World!</h1>
 
-			<p> This is me: </p><img src="img/Headshot.png" alt="My face" />
+			<p> This is me: </p><img src="img/Headshot.png" alt="My face" class="centre" />
+			<br/>
 
-			<p><a href="about/index.html"> Learn more about me. </a></p>
-			
-			<a href="https://github.com/jakephi" target="_blank"><img src="img/GitHub-Mark-120px-plus.png" alt="My GitHub"></a>
-			<a href="https://www.linkedin.com/in/jake-phillips-product" target="_blank"><img src="img/LI-In-Bug.png" alt="My LinkedIn" width=120px></a>
+			<p><a href="about/index.html"> Visit my about page. </a></p>
+			<br/>
+
+			<p> Or look at my work below: </p>
+			<div id="portfolio">
+				<a href="https://github.com/jakephi" target="_blank"><img src="img/GitHub-Mark-120px-plus.png" alt="My GitHub" width=120px class="logo"></a>
+				<a href="https://www.linkedin.com/in/jake-phillips-product" target="_blank"><img src="img/LI-In-Bug.png" alt="My LinkedIn" width=120px class="logo"></a>
+			</div>
 		</div>
+		<footer class="footer">
+			<div class="footer_links">
+				<p>
+					<a href="about/index.html" class="footer_links"> Privacy notice</a>
+					<a href="terms" class="footer_links">Terms and conditions</a>
+					<a href="access" class="footer_links">Accessibility</a>
+				</p>
+			</div>
+			<div class="footer_copyright">
+				<p> &#169; Jake Phillips </p>
+			</div>
+		</footer>
 	</body>
 </html>
