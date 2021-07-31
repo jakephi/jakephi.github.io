@@ -91,3 +91,23 @@ h1 {
 	text-align: right;
 	margin-right: 16px;
 }
+
+form li {
+	list-style: none;
+	margin-bottom: 12px;
+}
+
+form ul {
+	padding-left: 0;
+}
+
+label {
+	display: block;
+	cursor: pointer;
+	padding-bottom: 6px;
+}
+
+textarea {
+	width: 400px;
+	height: 300px;
+}
